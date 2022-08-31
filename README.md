@@ -4,6 +4,8 @@ Escriba una aplicación que pida al usuario que escriba dos números, que obteng
 
 ### 2.18 Ejercicio Vsiualización de figura
 Escriba una aplicación que muestre un cuadro, un óvalo, una flecha y un diamante usando asteriscos (*), como se muestra a continuación:
+<br/>
+<br/>
 <img src="https://i.imgur.com/mK0dF8U.png">
 
 ### 2.26 Ejercicio de Múltiplos
