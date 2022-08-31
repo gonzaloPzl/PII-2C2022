@@ -3,6 +3,8 @@
 Escriba una aplicación que pida al usuario que escriba dos números, que obtenga los números del usuario e imprima la suma, producto, diferencia y cociente (división) de los números. Use las técnicas que se muestran en la figura 2.7.
 
 ### 2.18 Ejercicio Vsiualización de figura
+Escriba una aplicación que muestre un cuadro, un óvalo, una flecha y un diamante usando asteriscos (*), como se muestra a continuación:
+<img src="https://i.imgur.com/mK0dF8U.png">
 
 ### 2.26 Ejercicio de Múltiplos
 Escriba una aplicación que lea dos enteros, determine si el primero es un múltiplo del segundo e imprima el resultado. [Sugerencia: use el operador residuo].
