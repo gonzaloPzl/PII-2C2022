@@ -1,21 +1,9 @@
 # Ejercicios de java libro de JAVA Deitel & Deitel
-### 2.15 Ejercicio Aritmética
-Escriba una aplicación que pida al usuario que escriba dos números, que obtenga los números del usuario e imprima la suma, producto, diferencia y cociente (división) de los números. Use las técnicas que se muestran en la figura 2.7.
+### 3.11 Clase Cuenta modificada
+Modifique la clase Cuenta (figura 3.8) para proporcionar un método llamado retirar, que retire dinero de un objeto Cuenta. Asegúrese de que el monto a retirar no exceda el saldo de Cuenta. Si lo hace, el saldo debe permanecer sin cambio y el método debe imprimir un mensaje que indique “El monto a retirar excede el saldo de la cuenta”. Modifique la clase PruebaCuenta (figura 3.9) para probar el método retirar.
 
-### 2.18 Ejercicio Vsiualización de figura
-Escriba una aplicación que muestre un cuadro, un óvalo, una flecha y un diamante usando asteriscos (*), como se muestra a continuación:
-<br/>
-<br/>
-<img src="https://i.imgur.com/mK0dF8U.png">
+### 3.13 La clase Empleado
+Cree una clase llamada Empleado, que incluya tres variables de instancia: un primer nombre (tipoString), un apellido paterno (tipoString) y un salario mensual (double). Su clase debe tener un constructor que inicialice las tres variables de instancia. Proporcione un método establecer y un método obtener para cada variable de instancia. Si el salario mensual no es positivo, no establezca su valor. Escriba una aplicación de prueba llamada PruebaEmpleado, que demuestre las capacidades de la clase Empleado. Cree dos objetos Empleado y muestre el salario anual de cada objeto. Después, proporcione a cada Empleado un aumento del 10% y muestre el salario anual de cada Empleado otra vez.
 
-### 2.26 Ejercicio de Múltiplos
-Escriba una aplicación que lea dos enteros, determine si el primero es un múltiplo del segundo e imprima el resultado. [Sugerencia: use el operador residuo].
-
-### 2.28 Diametro, circunferencia y área de circulo
-Java también puede representar números de punto flotante que contienen puntos decimales, como 3.14159. Escriba una aplicación que reciba del usuario el radio de un círculo como un entero, y que imprima el diámetro, la circunferencia y el área del círculo mediante el uso del valor de punto flotante 3.14159 para π. Use las técnicas que se muestran en la figura 2.7 [nota: también puede utilizar la constante predefinida Math.PI para el valor de π. Esta constante es más precisa que el valor 3.14159. La claseMath se define en el paquetejava.lang. Las clases en este paquete se importan de manera automática, por lo que no necesita importar la claseMath mediante la instrucción importpara usarla]. Use las siguientes fórmulas ($r$ es el radio):
-
-diámetro= $2r$
-
-circunferencia= $2πr$
-
-área= $π r^2$
+### 3.14 La clase Fecha
+Cree una clase llamada Fecha, que incluya tres variables de instancia: un mes (tipoint), un día (tipo int) y un año (tipo int). Su clase debe tener un constructor que inicialice las tres variables de instancia, y debe asumir que los valores que se proporcionan son correctos. Proporcione un método establecer y un método obtener para cada variable de instancia. Proporcione un método mostrarFecha, que muestre el mes, día y año, separados por barras diagonales (/). Escriba una aplicación de prueba llamada PruebaFecha, que demuestre las capacidades de la clase Fecha.
