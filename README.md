@@ -1,9 +1,31 @@
-# Ejercicios de java libro de JAVA Deitel & Deitel
-### 3.11 Clase Cuenta modificada
-Modifique la clase Cuenta (figura 3.8) para proporcionar un método llamado retirar, que retire dinero de un objeto Cuenta. Asegúrese de que el monto a retirar no exceda el saldo de Cuenta. Si lo hace, el saldo debe permanecer sin cambio y el método debe imprimir un mensaje que indique “El monto a retirar excede el saldo de la cuenta”. Modifique la clase PruebaCuenta (figura 3.9) para probar el método retirar.
+# Tarea 4
+### Descripción de la situación:
 
-### 3.13 La clase Empleado
-Cree una clase llamada Empleado, que incluya tres variables de instancia: un primer nombre (tipoString), un apellido paterno (tipoString) y un salario mensual (double). Su clase debe tener un constructor que inicialice las tres variables de instancia. Proporcione un método establecer y un método obtener para cada variable de instancia. Si el salario mensual no es positivo, no establezca su valor. Escriba una aplicación de prueba llamada PruebaEmpleado, que demuestre las capacidades de la clase Empleado. Cree dos objetos Empleado y muestre el salario anual de cada objeto. Después, proporcione a cada Empleado un aumento del 10% y muestre el salario anual de cada Empleado otra vez.
+Un banco maneja muchas cuentas bancarias. Cada cuenta está asociada a una sola persona. Las cuentas pueden ser en dólares o en pesos. La distinción es importante, ya que si bien las dos cuentas tienen una persona como titular, un saldo y un CBU asociado, hacen un diferente manejo de las operaciones depositar y retirar fondos. Las personas poseen nombre, apellido, número de documento y una dirección en donde viven. Al banco le interesa poder consultar por las provincias y ciudades donde viven las personas.
 
-### 3.14 La clase Fecha
-Cree una clase llamada Fecha, que incluya tres variables de instancia: un mes (tipoint), un día (tipo int) y un año (tipo int). Su clase debe tener un constructor que inicialice las tres variables de instancia, y debe asumir que los valores que se proporcionan son correctos. Proporcione un método establecer y un método obtener para cada variable de instancia. Proporcione un método mostrarFecha, que muestre el mes, día y año, separados por barras diagonales (/). Escriba una aplicación de prueba llamada PruebaFecha, que demuestre las capacidades de la clase Fecha.
+
+### Tareas a realizar
+1. Escriba el diagrama de clases para los objetos que considere necesarios.
+2. Implemente en Java la siguiente secuencia: 
+- creación de un banco
+- creación de 3 cuentas bancarias en pesos
+- creación 2 cuentas bancarias en dólares
+- deposite 1000 pesos en todas las cuentas en pesos
+- deposite 100 dólares en todas las cuentas en dólares
+- extraiga 400 pesos de una cuenta en pesos
+- extraiga 50 dólares de una cuenta en dólares
+- deposite 20 dólares en una cuenta en dólares
+- intente extraer 5000 pesos de una cuenta en pesos
+- transfiera dinero de una cuenta en dólares a una cuenta en pesos
+- transfiera dinero de una cuenta en pesos a una cuenta en dólares
+- obtener todas las cuentas de personas de una provincia
+- obtener todas las cuentas de personas de una ciudad
+
+
+### Consideraciones: 
+
+- Las personas deben ser creadas con todos sus datos en el constructor.
+- Al ser creadas todas las cuentas tienen un saldo 0.
+- El número de CBU se genera automáticamente para cada cuenta.
+- Ninguna de las cuentas puede operar al descubierto (extraer más dinero del que tiene).
+- El banco permite hacer transferencias entre dos cuentas sin importar el tipo de cuenta, el mismo banco realiza la conversión entre las divisas.
